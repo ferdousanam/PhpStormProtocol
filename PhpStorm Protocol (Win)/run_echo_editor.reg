@@ -1,0 +1,11 @@
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\echocmd]
+@="URL:echocmd Protocol"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\echocmd\DefaultIcon]
+@="\"C:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.2.2\\bin\\idea64.exe\",1"
+
+[HKEY_CLASSES_ROOT\echocmd\shell\open\command]
+@="cmd.exe | echo \"%1\""

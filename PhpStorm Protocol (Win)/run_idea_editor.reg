@@ -1,0 +1,31 @@
+REGEDIT4
+
+; ===========================================================================================
+; URL:phpstorm Protocol
+; ===========================================================================================
+
+[HKEY_CLASSES_ROOT\phpstorm]
+@="URL:phpstorm Protocol"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\phpstorm\DefaultIcon]
+@="\"C:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.2.2\\bin\\idea64.exe\",1"
+; @="%PhpStorm%\\idea64.exe,1"
+
+[HKEY_CLASSES_ROOT\phpstorm\shell\open\command]
+@="wscript \"C:\\Program Files\\PhpStorm Protocol (Win)\\run_editor.js\" \"%1\" //E:JScript"
+; @="\"C:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.2.2\\bin\\idea64.exe\" \"%open\"
+
+; ===========================================================================================
+; URL:idea Protocol
+; ===========================================================================================
+
+[HKEY_CLASSES_ROOT\idea]
+@="URL:idea Protocol"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\idea\DefaultIcon]
+@="\"C:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.2.2\\bin\\idea64.exe\",1"
+
+[HKEY_CLASSES_ROOT\idea\shell\open\command]
+@="wscript \"C:\\Program Files\\PhpStorm Protocol (Win)\\run_editor.js\" \"%1\" //E:JScript"

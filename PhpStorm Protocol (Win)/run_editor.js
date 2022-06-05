@@ -1,5 +1,5 @@
 var settings = {
-    // flag to active Jetbrain Toolbox configuration
+    // flag to active Jetbrains Toolbox configuration
     toolBoxActive: isToolboxInstalled(),
 
     // Set to 'true' (without quotes) if run on Windows 64bit. Set to 'false' (without quotes) otherwise.
@@ -10,9 +10,11 @@ var settings = {
 
     // Set to folder name, where PhpStorm was installed to (e.g. 'PhpStorm')
     folder_name: '<phpstorm_folder_name>',
+    // folder_name: 'IntelliJ IDEA 2021.2.2',
 
     // Set to window title (only text after dash sign), that you see, when switching to running PhpStorm instance
     window_title: '<phpstorm_window_title>',
+    // window_title: 'IntelliJ IDEA 2021.2.2',
 
     // In case your file is mapped via a network share and paths do not match.
     // eg. /var/www will can replaced with Y:/
